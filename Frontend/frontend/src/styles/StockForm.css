@@ -1,0 +1,14 @@
+.stock-form {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  }
+  .dark-mode .stock-form {
+    background-color: #2b2b2b;
+  }
+  .stock-form input[type="file"] {
+    margin-top: 10px;
+  }
+  

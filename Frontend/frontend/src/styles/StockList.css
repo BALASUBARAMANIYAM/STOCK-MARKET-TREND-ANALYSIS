@@ -1,0 +1,17 @@
+/* StockList.css */
+.stock-item {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .dark-mode .stock-item {
+    background-color: #2a2a2a;
+    border-color: #444;
+  }
+  .stock-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  

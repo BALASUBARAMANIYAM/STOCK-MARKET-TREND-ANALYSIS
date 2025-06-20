@@ -1,0 +1,60 @@
+.user-register-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #fefefe, #e0eafc);
+  }
+  
+  .user-register-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .dark-mode .user-register-box {
+    background-color: #2b2b2b;
+    color: #f1f1f1;
+  }
+  
+  .user-register-box h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .user-register-box input {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .user-register-box input:focus {
+    border-color: #17a2b8;
+    outline: none;
+  }
+  
+  .user-register-box button {
+    width: 100%;
+    padding: 12px;
+    background-color: #17a2b8;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .user-register-box button:hover {
+    background-color: #117a8b;
+  }
+  
