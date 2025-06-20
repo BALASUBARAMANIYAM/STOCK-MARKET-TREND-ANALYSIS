@@ -1,116 +1,112 @@
-📈 Stock Market Trend Analysis using Hybrid Deep Learning Model
-🧠 Project Overview
-This project presents a hybrid deep learning model that combines Long Short-Term Memory (LSTM) and Temporal Convolutional Networks (TCN) to predict stock market trends and prices with improved accuracy. The model uses both short-term and long-term market dependencies, along with technical indicators, to forecast future prices and detect trends.
+📈 STOCK MARKET TREND ANALYSIS USING HYBRID DEEP LEARNING MODEL
+🧠 PROJECT OVERVIEW
+This project presents a hybrid deep learning model that combines Long Short-Term Memory (LSTM) and Temporal Convolutional Networks (TCN) to predict stock market trends and prices. It captures both short-term and long-term dependencies using technical indicators to generate highly accurate forecasts.
 
-A full-stack web application has also been developed using React.js and Django for real-time visualization, user interaction, and prediction insights.
+A full-stack web application is developed using React.js and Django for real-time predictions and user interaction.
 
-🚀 Features
-🔄 Hybrid LSTM + TCN architecture for time series prediction
+🚀 FEATURES
+🔄 Hybrid LSTM + TCN architecture
 
-📊 Technical indicator analysis: RSI, MACD, Bollinger Bands, ATR
+📊 Technical Indicators: RSI, MACD, Bollinger Bands, ATR
 
-🪄 Sliding Window-based Sequence Generation
+🪄 Sliding Window-based Sequence Generator
 
 📉 Smart Money Entry & Trend Detection
 
-🌐 Full-stack web app with:
+🌐 Full-Stack Web App
 
-User/Admin login
+User/Admin login system
 
-Real-time stock predictions
+Real-time stock forecasts
 
-Trend visualizations & dashboards
+Admin dashboard for data control
 
-⚙️ Backend: Django + MySQL | Frontend: React
+📌 OBJECTIVES
+Develop a Hybrid Model using LSTM + TCN to capture short and long-term stock patterns
 
-📌 Objectives
-Predict stock price movement using LSTM and TCN
+Use Technical Indicators for improving accuracy (RSI, MACD, BB, ATR)
 
-Use technical indicators for better feature representation
+Create a Web App using React + Django for end-user interaction
 
-Build an interactive web application for real-time predictions
-
-🛠️ Tech Stack
-Area	Tools/Frameworks
+🛠️ TECH STACK
+Component	Technology
 Programming	Python, JavaScript
-ML/DL	TensorFlow, Keras, NumPy, Scikit-learn
-Data Handling	Pandas, Openpyxl, Yahoo Finance API
+ML Frameworks	TensorFlow, Keras
+Data Handling	Pandas, NumPy, Yahoo Finance API
 Visualization	Matplotlib, Seaborn
 Frontend	React.js
-Backend	Django (REST API)
+Backend	Django REST Framework
 Database	MySQL
-IDE/Platform	Google Colab, Jupyter Notebook
+Platform	Google Colab, Jupyter Notebook
 
-🔍 Model Architecture
-TCN Layer: Captures short-term dependencies using dilated causal convolutions.
+🔍 MODEL ARCHITECTURE
+TCN Block: Extracts local and short-term temporal features
 
-LSTM Layer: Learns long-term patterns across time.
+LSTM Block: Learns long-term dependencies
 
-Dense Output: Predicts next-day stock price.
+Dense Output Layer: Predicts the stock price
 
-Trained using MSE loss and Adam optimizer.
+Loss Function: Mean Squared Error (MSE)
 
-📈 Results
-Evaluation Metrics:
+Optimizer: Adam
 
-MSE: 0.0029
+📈 RESULTS
+Metric	LSTM	TCN	Hybrid (TCN + LSTM)
+MSE	0.0042	0.0038	0.0029
+RMSE	0.0648	0.0616	0.0538
+MAE	0.0517	0.051	0.0423
+R² Score	0.89	0.91	0.94
 
-RMSE: 0.0538
+✅ Hybrid model achieves best performance in all metrics
 
-MAE: 0.0423
+🖥️ WEB APPLICATION MODULES
+User Module
 
-R² Score: 0.94
+Enter stock name & date range
 
-Key Findings:
+View real-time prediction chart
 
-22.3% reduction in RMSE compared to traditional models
+Admin Module
 
-Strong performance in volatile market periods (e.g., earnings season)
+Upload/Manage stock data
 
-🖥️ Web Application
-Users can:
+Monitor trend & prediction logs
 
-View future stock predictions (up to 90 days)
+Smart Money Detection
 
-Analyze historical trends
+Shows likely institutional investor entries
 
-Detect smart money entries
+📊 DATA PIPELINE
+📥 Data Collection (via Yahoo Finance API)
 
-Admins can:
+🧼 Preprocessing (cleaning, scaling, technical indicators)
 
-Add/edit stock data
+📐 Training (TCN → LSTM → Dense)
 
-Monitor system logs and predictions
+🌐 Deployment (Django + React integration)
 
-🔄 Data Pipeline
-📥 Data Collection: Yahoo Finance API (yfinance)
+📉 SAMPLE VISUALIZATIONS
+📊 AAPL Stock Prediction vs Actual
 
-🧼 Preprocessing: Cleaning, Normalization, Feature Engineering
+🧠 Technical Indicator Graphs
 
-📐 Model Training: Sliding window approach for sequence creation
+📈 Smart Money Entry Points
 
-🌐 Deployment: Model connected via Django API to React frontend
+🔮 Future Forecasts (90 days)
 
-📊 Sample Visualizations
-📉 Actual vs Predicted Stock Prices (AAPL)
+🧪 FUTURE WORK
+📣 Add Sentiment Analysis from Twitter & News
 
-🧠 Technical Indicators (RSI, MACD, BB)
+📊 Integrate Macroeconomic Indicators
 
-📈 Trend and Smart Money Entry Plots
+🤖 Try Transformer/Attention-based models
 
-🧪 Future Work
-📣 Integrate Sentiment Analysis from news/Twitter
-
-📊 Include macroeconomic indicators (e.g., inflation, GDP)
-
-🤖 Explore Transformer-based models for improved forecasting
-
-👨‍💻 Contributors
+👨‍💻 CONTRIBUTORS
 Balasubaramaniyam TS 
 
-Mohamed Anas MH 
+Mohamed Anas MH
 
-Balamurugan S 
+Balamurugan S
 
-📄 License
-This project is for academic and research purposes. You may use and modify it with proper attribution.
+📄 LICENSE
+This project is built for academic & research purposes. Feel free to use or extend with credit.
