@@ -41,13 +41,13 @@ A full-stack web application is built using **React.js** (Frontend) and **Django
 
 ## 🧠 **MODEL ARCHITECTURE**
 Input Sequence 
-↓
+->
 [ TCN Layers ]
-↓
+->
 [ LSTM Layers ]
-↓
+->
 [ Dense Output ]
-↓
+->
 Predicted Stock Price
 
 - **Loss Function:** Mean Squared Error (MSE)  
