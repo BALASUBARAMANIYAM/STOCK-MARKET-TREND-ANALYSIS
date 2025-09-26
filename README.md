@@ -5,7 +5,7 @@ It captures both short-term fluctuations and long-term trends using **technical 
 
 A full-stack web application is built using **React.js** (Frontend) and **Django** (Backend) to deliver real-time stock predictions and market trend analysis.
 
----
+----
 
 ## 🚀 **FEATURES**
 
